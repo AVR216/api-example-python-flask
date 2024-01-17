@@ -12,3 +12,5 @@ class MainController:
     def insert_hello_message(self, message):
         print(message)
         return main_service.insert_hello_message(message)
+    
+    # exponer servicio get que reciba un id
